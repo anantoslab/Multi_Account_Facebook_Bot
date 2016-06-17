@@ -1,0 +1,234 @@
+@import "BASE";
+
+body {
+  background-color:$bg-color;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+
+rual-head{
+  display: block;
+  width: 400px;
+  background-color: rgb(34, 113, 186);
+  width: 50%;
+  margin: 0 auto;
+  height: 60px;
+  width:  400px;
+  h1{
+    padding: 12px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 120px;
+     font-size: 2em;
+  }
+}
+
+
+rual-content {
+  display: block;
+  background-color: rgba(202, 204, 187, 0.36);
+  width: 50%;
+  margin: 0 auto;
+  height: 400px;
+  width:  400px;
+
+  rual-warn{
+        display: block;
+        padding: 40px 0 0 80px;
+  }
+ form {
+    text-align: center;
+    padding-top: 20px;
+input[type="text"]{
+      border: 1px solid rgb(224, 224, 224);
+      padding: 15px;
+      font-size: 20px;
+
+  }
+  input[type="submit"]{
+        background-color: rgb(15, 68, 138);
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(224, 224, 224);
+        padding: 15px;
+        font-size: 20px;
+
+    }
+
+ }
+}
+
+footer{
+  background-color: rgba(26, 27, 34, 0.94);
+  color: rgb(255, 255, 255);
+  width: 50%;
+  margin: 0 auto;
+  height: 40px;
+  width:  400px;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 0px 3px 5px rgb(176, 176, 176);
+}
+
+
+rual-wrn{
+  background-color: rgba(200, 50, 45, 0.39);
+  margin: 0 auto;
+  height: 40px;
+  width:  400px;
+  padding-top: 25px;
+  display: block;
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+}
+
+
+
+rual-admin{
+    background-color: rgba(48, 54, 77, 0.83);
+    color: rgb(255, 255, 255);
+    width: 50%;
+    margin: 0 auto;
+    height: 40px;
+    width:  400px;
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+    margin-top: 100px;
+}
+
+rual-tab{
+   a{
+    background-color: rgba(227, 227, 227, 0.83);
+    border-bottom: 1px solid rgb(222, 222, 222);
+    color: rgb(84, 84, 84);
+    width: 50%;
+    margin: 0 auto;
+    height: 40px;
+    width:  400px;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    display: block;
+    &:hover {
+      background-color: rgb(255, 255, 255);
+    }
+  }
+}
+
+
+
+
+
+
+
+rual-tab2{
+    background-color: rgba(227, 227, 227, 0.83);
+    border-bottom: 1px solid rgb(222, 222, 222);
+    color: rgb(84, 84, 84);
+    width: 40%;
+    margin: 0 auto;
+    height: 40px;
+    width:  400px;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    display: block;
+    &:hover {
+      background-color: rgb(255, 255, 255);
+  }
+  a{
+    text-decoration: none;
+    color: #222;
+  }
+}
+
+
+
+
+
+
+rual-set{
+   a{
+    background-color: rgba(224, 197, 99, 0.52);
+    border-bottom: 1px solid rgb(222, 222, 222);
+    color: rgb(84, 84, 84);
+    width: 50%;
+    margin: 0 auto;
+    height: 40px;
+    width:  400px;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    display: block;
+    &:hover {
+      background-color: rgb(255, 255, 255);
+    }
+  }
+}
+
+
+.token{
+    background-color: rgba(227, 227, 227, 0.83);
+    border-bottom: 1px solid rgb(222, 222, 222);
+    color: rgb(84, 84, 84);
+    width: 50%;
+    margin: 0 auto;
+    height: 60px;
+    width:  400px;
+    text-align: center;
+    padding-top: 20px 0px 0px 0px;
+    text-decoration: none;
+    padding-bottom: 200px;
+    padding-top: 40px;
+    input[type="text"]{
+          border: 1px solid rgb(224, 224, 224);
+          padding: 15px;
+          font-size: 20px;
+
+      }
+      select{
+        background-color: rgba(244, 244, 244, 0.7);
+        border: 1px solid rgb(224, 224, 224);
+         padding: 10px;
+         option{
+           padding: 10px;
+         }
+
+      }
+      textarea{
+        border: 1px solid rgb(224, 224, 224);
+      }
+    input[type="submit"]{
+          background-color: rgb(15, 68, 138);
+          color: rgb(255, 255, 255);
+          border: 1px solid rgb(224, 224, 224);
+          padding: 15px;
+          font-size: 20px;
+          &:hover{
+            border: 1px solid rgb(17, 71, 115);
+            color: rgb(17, 71, 115);
+            background-color: rgba(246, 246, 247, 0.11);
+          }
+        }
+      }
+
+  .facebook{
+    text-align: center;
+    margin-top: 200px;
+    position: relative;
+    border-color:#3c5a98;
+    text-transform:lowercase;
+    text-indent:34px;
+    letter-spacing:10px;
+    font-weight:bold;
+    font-size:64px;
+    line-height:66px;
+    color:#fff;
+    background:#3c5a98;
+
+    -moz-box-shadow:0 0 4px rgba(0,0,0,0.4);
+    -webkit-box-shadow:0 0 4px rgba(0,0,0,0.4);
+    box-shadow:0 0 4px rgba(0,0,0,0.4);
+}
