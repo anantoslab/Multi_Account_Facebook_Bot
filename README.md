@@ -42,7 +42,10 @@ Profile visit and group bot need to start from main panel .
 </br>
 </br>
 
-IF you Are faceing Problem setting Up</br> Contact ME on fb: </br>
+IF you Are faceing Problem setting Up</br>
+watch this video Tut: https://youtu.be/iinSscAcCGk
+or
 
+Contact ME on fb: </br>
 
 fb.me/zithroooo
